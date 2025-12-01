@@ -2,6 +2,22 @@
 
 LangGraph를 사용한 멀티에이전트 구조로 구현된 이벤트 자동 등록 시스템입니다.
 
+## 🎯 주요 기능
+
+- ✅ **LangGraph 멀티에이전트**: 3개의 전문 에이전트가 협업
+- ✅ **GPT-4o-mini 파싱**: 한국어 텍스트에서 이벤트 정보 자동 추출
+- ✅ **Google Sheets 연동**: 미처리 이벤트 읽기 및 결과 작성
+- ✅ **Google Calendar 연동**: 자동 일정 등록
+- ✅ **LangSmith 통합**: 실시간 디버깅 및 모니터링
+- ✅ **워크플로우 시각화**: Mermaid 다이어그램으로 전체 흐름 확인
+
+## 📚 문서
+
+- 📖 [설치 가이드 (SETUP_GUIDE.md)](SETUP_GUIDE.md) - 윈도우/맥 사용자를 위한 상세 설치 방법
+- 🔍 [LangSmith 가이드 (LANGSMITH_GUIDE.md)](LANGSMITH_GUIDE.md) - 디버깅 및 모니터링 설정
+- 📊 [워크플로우 다이어그램 (WORKFLOW_DIAGRAM.md)](WORKFLOW_DIAGRAM.md) - Mermaid 시각화
+- 🛠️ [Git 사용법 (GIT_USAGE.md)](GIT_USAGE.md) - Git & GitHub 활용 가이드
+
 ## 🏗️ 아키텍처
 
 ### 멀티에이전트 구조
