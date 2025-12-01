@@ -1,10 +1,17 @@
 """
 LangGraph 멀티에이전트 이벤트 처리 - 메인 실행 스크립트
 """
+import os
 from workflow import create_event_processing_workflow
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# LangSmith 설정 (선택사항 - 디버깅 및 모니터링용)
+if os.getenv("LANGCHAIN_TRACING_V2") == "true":
+    print("🔍 LangSmith 추적 활성화됨")
+    print(f"   프로젝트: {os.getenv('LANGCHAIN_PROJECT', 'default')}")
+    print(f"   추적 URL: https://smith.langchain.com/\n")
 
 
 def main():
