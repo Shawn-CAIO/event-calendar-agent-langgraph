@@ -23,7 +23,7 @@
 
 3. **저장소 URL 복사**
    - 생성 후 나타나는 URL 복사
-   - 예: `https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git`
+   - 예: `https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git`
 
 ### 2단계: 로컬 저장소를 GitHub에 연결
 
@@ -31,7 +31,7 @@
 
 ```bash
 # GitHub 저장소 URL로 변경하세요
-git remote add origin https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git
+git remote add origin https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git
 
 # 확인
 git remote -v
@@ -39,8 +39,8 @@ git remote -v
 
 **출력 예시:**
 ```
-origin  https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git (fetch)
-origin  https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git (push)
+origin  https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git (fetch)
+origin  https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git (push)
 ```
 
 ### 3단계: GitHub에 업로드 (Push)
@@ -79,11 +79,11 @@ git push -u origin main
 교육생들에게 다음 정보를 제공:
 
 ```
-📚 실습 저장소: https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph
+📚 실습 저장소: https://github.com/Shawn-CAIO/event-calendar-agent-langgraph
 
 📖 설치 가이드:
 1. 저장소 클론:
-   git clone https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git
+   git clone https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git
 
 2. 상세한 설치 방법은 SETUP_GUIDE.md 파일을 참고하세요.
 ```
@@ -213,7 +213,7 @@ git push origin starter
 **교육생 안내:**
 ```bash
 # 과제용 템플릿 받기
-git clone -b starter https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git
+git clone -b starter https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git
 ```
 
 ### 시나리오 2: 단계별 튜토리얼
@@ -323,7 +323,7 @@ GitHub Issues를 활용:
 git remote -v
 
 # SSH → HTTPS로 변경
-git remote set-url origin https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git
+git remote set-url origin https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git
 ```
 
 ### "rejected - non-fast-forward" 오류

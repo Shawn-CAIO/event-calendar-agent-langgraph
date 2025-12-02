@@ -64,7 +64,7 @@ cd C:\Users\YourName\Documents  # Windows
 cd ~/Documents                   # macOS/Linux
 
 # 저장소 클론
-git clone https://github.com/YOUR_USERNAME/event-calendar-agent-langgraph.git
+git clone https://github.com/Shawn-CAIO/event-calendar-agent-langgraph.git
 
 # 프로젝트 폴더로 이동
 cd event-calendar-agent-langgraph
