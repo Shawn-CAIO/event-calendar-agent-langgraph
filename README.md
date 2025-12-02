@@ -126,7 +126,7 @@ GOOGLE_CALENDAR_ID=primary
 ### 3. OAuth 인증 설정
 
 기존 프로젝트의 `oauth_credentials.json`과 `token.pickle` 파일을 재사용하거나,
-새로 설정합니다 (상세 방법은 기존 프로젝트의 `SETUP_OAUTH.md` 참조).
+새로 설정합니다 (상세 방법은 [SETUP_OAUTH.md](SETUP_OAUTH.md) 참조).
 
 ### 4. 실행
 
